@@ -1,0 +1,31 @@
+{
+    "name": "prinx/slack-log",
+    "description": "Simply log-to-Slack",
+    "type": "library",
+    "require": {
+        "prinx/dotenv": "^0.4.3",
+        "symfony/http-client": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prince Dorcis",
+            "email": "princedorcis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "nunomaduro/collision": "^5.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prinx\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
