@@ -9,7 +9,6 @@ composer require prinx/slack-log
 ## Usage
 
 ```php
-
 use Prinx\SlackLog;
 
 SlackLog::info('✔️ User subscribed.');
