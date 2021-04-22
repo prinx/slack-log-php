@@ -11,7 +11,14 @@ composer require prinx/slack-log
 ```php
 use Prinx\SlackLog;
 
-SlackLog::info('✔️ User subscribed.');
+SlackLog::debug('✔️ User logged in.');
+SlackLog::info('...');
+SlackLog::notice('...');
+SlackLog::warning('...');
+SlackLog::error('...');
+SlackLog::critical('...');
+SlackLog::alert('...');
+SlackLog::emergency('...');
 ```
 
 ## License
