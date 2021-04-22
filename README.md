@@ -1,4 +1,4 @@
-# Simple Log to Slack Util.
+# Simple log-to-Slack util
 
 ## Installation
 
