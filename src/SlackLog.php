@@ -37,9 +37,9 @@ class SlackLog
      *
      * @return void
      */
-    public static function log($message, $level = 'info')
+    public static function log($message, $level = 'info', $env = 'SLACK_LOG')
     {
-        if (!($url = env('SLACK_LOG_WEBHOOK', null)) || env('SLACK_LOG_ENABLED', false) === false) {
+        if (!($url = env($env.'_WEBHOOK', null)) || env($env.'_ENABLED', false) === false) {
             return;
         }
 
