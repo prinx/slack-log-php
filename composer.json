@@ -3,7 +3,7 @@
     "description": "Simply log-to-Slack",
     "type": "library",
     "require": {
-        "prinx/dotenv": "^0.4.3",
+        "prinx/dotenv": "^0.5",
         "symfony/http-client": "^5.2"
     },
     "license": "MIT",
