@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Txtpay package.
+ * This file is part of the Slack log package.
  *
  * (c) Prince Dorcis <princedorcis@gmail.com>
  *
@@ -9,11 +9,11 @@
  * that was distributed with this source code.
  */
 
-namespace Txtpay\Support;
+namespace Prinx;
 
-use function Prinx\Dotenv\env;
 use Symfony\Component\HttpClient\HttpClient;
 use Throwable;
+use function Prinx\Dotenv\env;
 
 /**
  * Simple log to slack.
