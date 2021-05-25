@@ -1,11 +1,7 @@
 {
     "name": "prinx/slack-log",
-    "description": "Simply log-to-Slack",
+    "description": "Simply log to Slack",
     "type": "library",
-    "require": {
-        "prinx/dotenv": "^0.5",
-        "symfony/http-client": "^5.2"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -14,6 +10,11 @@
         }
     ],
     "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "prinx/dotenv": "^1.0",
+        "symfony/http-client": "^5.2"
+    },
     "require-dev": {
         "nunomaduro/collision": "^5.4",
         "phpunit/phpunit": "^9.5"
