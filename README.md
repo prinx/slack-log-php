@@ -8,7 +8,21 @@ composer require prinx/slack-log
 
 ## Usage
 
+First create a Slack [incoming webhook](google.com?q=create+slack+incoming+webhook).
+
+In your `.env` file, at the root of your project, configure the webhook.
+
+```ini
+SLACK_LOG_WEBHOOK=https://hooks...
+
+# Optional. True by default
+SLACK_LOG_ENABLED=true
+```
+
+Then in your code, log:
+
 ```php
+// PHP
 use Prinx\SlackLog;
 
 SlackLog::debug('✔️ User logged in.');
@@ -20,6 +34,14 @@ SlackLog::critical('...');
 SlackLog::alert('...');
 SlackLog::emergency('...');
 ```
+
+## Contribute
+
+- Star this repo
+- Fork this repo
+- Add a missing feature
+- Create a pull request
+- Receive the glory
 
 ## License
 
