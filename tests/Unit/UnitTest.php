@@ -2,12 +2,13 @@
 
 namespace Tests\Unit;
 
+use Prinx\SlackLog;
 use Tests\TestCase;
 
 class UnitTest extends TestCase
 {
     public function testExample()
     {
-        $this->assertTrue(1 === 1);
+        $this->assertNull(SlackLog::info('ok'));
     }
 }
