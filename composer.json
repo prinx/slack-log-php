@@ -9,14 +9,14 @@
             "email": "princedorcis@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "prinx/dotenv": "^1.0",
-        "symfony/http-client": "^5.2"
+        "symfony/http-client": "^6.0"
     },
     "require-dev": {
-        "nunomaduro/collision": "^5.4",
+        "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
